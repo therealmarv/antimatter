@@ -102,7 +102,7 @@ function convert(pos) {
 
 function fetch() {
     var xhr = $.ajax({
-        url: "http://crowdcrafting.org/api/taskrun?project_id=794&limit=100",
+        url: "https://crowdcrafting.org/api/taskrun?project_id=794&limit=100",
         dataType: "json",
     });
 
